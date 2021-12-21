@@ -90,6 +90,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="toolTip">
+     <string>Введите исходную валюту</string>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: #8022222e;
 border: 2px solid #FF932F;
@@ -120,6 +123,9 @@ color: white;</string>
       <bold>true</bold>
      </font>
     </property>
+    <property name="toolTip">
+     <string>Введите количество</string>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: #8022222e;
 border: 2px solid #FF932F;
@@ -133,7 +139,7 @@ color: white;</string>
      <string>Введите количество:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="outputAmount">
+   <widget class="QLineEdit" name="outputCurrency">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -150,6 +156,9 @@ color: white;</string>
       <bold>true</bold>
      </font>
     </property>
+    <property name="toolTip">
+     <string>В какой валюте</string>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: #8022222e;
 border: 2px solid #FF932F;
@@ -163,7 +172,7 @@ color: white;</string>
      <string>В какой валюте:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="outputCurrency">
+   <widget class="QLineEdit" name="outputAmount">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -179,6 +188,9 @@ color: white;</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="toolTip">
+     <string>Ваш результат</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: #8022222e;
@@ -209,6 +221,9 @@ color: white;</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="toolTip">
+     <string>Конвертировать</string>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
