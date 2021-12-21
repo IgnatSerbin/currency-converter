@@ -1,3 +1,3 @@
 # currency-converter
 Конвертер валют на языке Python
-[![asciicast](img/Screenshot.png)
+![asciicast](img/Screenshot.png)
